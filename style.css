@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+input[type="text"],
+.button-container,
+.row-button,
+button {
+  flex: 1;
+}
+
+.calc-container {
+  flex-direction: column;
+  border: 1px solid;
+  width: 400px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.screen-container {
+  padding: 15px;
+}
+
+input[type="text"] {
+  height: 100px;
+}
+
+.button-container {
+  padding: 0 15px 15px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row-button {
+  gap: 10px;
+}
