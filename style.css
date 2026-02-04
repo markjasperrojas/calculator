@@ -17,7 +17,7 @@ body {
 input[type="text"],
 .button-container,
 .row-button,
-button {
+input[type="button"], button {
   flex: 1;
 }
 
